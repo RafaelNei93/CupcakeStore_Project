@@ -1,0 +1,30 @@
+/* Centralização de conteúdo e estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  /* Faz com que os itens fiquem em coluna */
+    height: 100vh;
+}
+
+h1 {
+    color: #d63384;
+    text-align: center;
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+div, form {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.cupcake-item {
+    display: block;  /* Faz com que os cupcakes fiquem empilhados */
+    margin: 10px auto;  /* Alinha os cupcakes centralizados */
+    text-align: center;
+}
